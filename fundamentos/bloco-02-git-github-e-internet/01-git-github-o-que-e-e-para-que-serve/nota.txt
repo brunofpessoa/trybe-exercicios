@@ -1,1 +1,1 @@
-# Aqui comecei a utilizar as tecnologias de verse github.
+# Aqui comecei a utilizar as tecnologias de versionamento git e github.
