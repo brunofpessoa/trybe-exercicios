@@ -4,7 +4,3 @@ O que eu vou aprender na trybe:
 - Git
 - HTML
 - CSS
-- JavaScript
-- Phyton
-- TypeScript
-- React
