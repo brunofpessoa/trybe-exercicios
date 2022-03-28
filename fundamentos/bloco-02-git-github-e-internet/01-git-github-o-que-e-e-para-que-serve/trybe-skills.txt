@@ -2,3 +2,7 @@ O que eu vou aprender na trybe:
 - Unix
 - Bash
 - Git
+- JavaScript
+- Phyton
+- TypeScript
+- React
