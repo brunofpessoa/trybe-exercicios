@@ -1,0 +1,33 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+ul{
+    background-color: rgb(58, 42, 14);
+}
+.generic_class{
+    background-color: rgb(26, 27, 22);
+}
+p{
+    font-weight: 600;
+    font-size: 3em;
+}
+body{
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1;
+    text-align: center;
+}
+li{
+    text-decoration: underline;
+}
+#frstLi{
+    background-color: green;
+}
+#secLi{
+    background-color: blue;
+}
+#trdLi{
+    background-color: purple;
+}
