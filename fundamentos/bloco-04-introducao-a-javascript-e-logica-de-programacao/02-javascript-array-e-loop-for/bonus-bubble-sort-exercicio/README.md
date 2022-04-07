@@ -1,4 +1,4 @@
-# Exercicios 4.2- BÔNUS - JavaScript - Array e loop For
+# Exercicios 4.2- BÔNUS - Bubble Sort Algorithm
 ## Requisitos do Exercício
 
 - Para os próximos dois exercícios [leia este artigo](http://devfuria.com.br/logica-de-programacao/introducao-ao-algoritmo-de-ordenacao-bubble-sort/) e tente entender o que está acontencedo no código abaixo:
