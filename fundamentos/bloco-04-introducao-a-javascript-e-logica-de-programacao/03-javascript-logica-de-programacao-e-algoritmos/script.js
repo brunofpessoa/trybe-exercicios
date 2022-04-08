@@ -66,3 +66,20 @@ function BiggestPrimeNumber(primeiroNum, ultimoNum) {
     return allPrimeNumbers[0];
 }
 BiggestPrimeNumber(1, 50);
+
+// Requisito Bônus 1
+function PrintSquare(n) {
+    if (n <= 1) {
+        console.log("O número deve ser maior que 1.")
+        return;
+    }
+    let aux = "";
+    for (let index = 0; index < n; index += 1) {
+        aux = "";
+        for (let secondIndex = 0; secondIndex < n; secondIndex += 1) {
+            aux += "*";
+        }
+        console.log(aux);
+    }
+}
+PrintSquare(2);
