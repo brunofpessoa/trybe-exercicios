@@ -10,7 +10,7 @@ function Fatorial(number) {
 }
 Fatorial(4);
 
-//Requisito 2
+// Requisito 2
 function InvertWords(word) {
     let reverse = "";
     for (let index = word.length - 1; index >= 0; index -= 1) {
@@ -45,3 +45,24 @@ function MinorWord() {
 }
 GreaterWord();
 MinorWord();
+
+// Requisito 4
+function BiggestPrimeNumber(primeiroNum, ultimoNum){
+        let allPrimeNumbers = [];
+        let divisionsCounter;
+        for (let index = ultimoNum; index >= primeiroNum; index -= 1) {     
+            divisionsCounter = 0;
+            for (let secondIndex = index - 1; secondIndex > 1; secondIndex -= 1) {
+                if(index % secondIndex == 0){
+                    divisionsCounter += 1;
+                }
+            }
+            if(divisionsCounter === 0){
+                allPrimeNumbers.push(index);
+            }
+        }
+        console.log(allPrimeNumbers);
+        console.log(`O maior número primo do intervalo é ${allPrimeNumbers[0]}.`)
+        return allPrimeNumbers[0];
+    }
+    BiggestPrimeNumber(1,50);
