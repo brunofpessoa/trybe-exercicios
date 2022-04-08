@@ -53,7 +53,7 @@ function BiggestPrimeNumber(primeiroNum, ultimoNum) {
     for (let index = ultimoNum; index >= primeiroNum; index -= 1) {
         divisionsCounter = 0;
         for (let secondIndex = index - 1; secondIndex > 1; secondIndex -= 1) {
-            if (index % secondIndex == 0) {
+            if (index % secondIndex === 0) {
                 divisionsCounter += 1;
             }
         }
@@ -82,7 +82,7 @@ function PrintSquare(n) {
         console.log(aux);
     }
 }
-PrintSquare(2);
+PrintSquare(4);
 
 // Requisito Bônus 2
 function PrintTriagule(baseSize) {
@@ -142,7 +142,7 @@ function PrintHollowPyramid(baseSize) {
         for (let secondIndex = index; secondIndex < maxSpaces - 2; secondIndex += 1) {
             spaces += " ";
         }
-        if (index == 0) {
+        if (index === 0) {
             line = spaces + "*";
         } else {
             line = spaces + "*" + internalSpaces + "*";
@@ -159,3 +159,20 @@ function PrintHollowPyramid(baseSize) {
     console.log(finalLine);
 }
 PrintHollowPyramid(11);
+
+// Requisito Bônus 6
+function IsPrime(number) {
+    let divisionsCounter = 0;
+    for (let index = number; index > 1; index -= 1) {
+        if (number % index === 0) {
+            divisionsCounter += 1;
+        }
+    }
+    if (divisionsCounter === 1) {
+        console.log(`O número ${number} é primo.`)
+        return true;
+    } else {
+        console.log(`O número ${number} não é primo.`)
+    }
+}
+IsPrime(31);
