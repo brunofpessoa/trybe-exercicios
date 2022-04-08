@@ -47,22 +47,22 @@ GreaterWord();
 MinorWord();
 
 // Requisito 4
-function BiggestPrimeNumber(primeiroNum, ultimoNum){
-        let allPrimeNumbers = [];
-        let divisionsCounter;
-        for (let index = ultimoNum; index >= primeiroNum; index -= 1) {     
-            divisionsCounter = 0;
-            for (let secondIndex = index - 1; secondIndex > 1; secondIndex -= 1) {
-                if(index % secondIndex == 0){
-                    divisionsCounter += 1;
-                }
-            }
-            if(divisionsCounter === 0){
-                allPrimeNumbers.push(index);
+function BiggestPrimeNumber(primeiroNum, ultimoNum) {
+    let allPrimeNumbers = [];
+    let divisionsCounter;
+    for (let index = ultimoNum; index >= primeiroNum; index -= 1) {
+        divisionsCounter = 0;
+        for (let secondIndex = index - 1; secondIndex > 1; secondIndex -= 1) {
+            if (index % secondIndex == 0) {
+                divisionsCounter += 1;
             }
         }
-        console.log(allPrimeNumbers);
-        console.log(`O maior número primo do intervalo é ${allPrimeNumbers[0]}.`)
-        return allPrimeNumbers[0];
+        if (divisionsCounter === 0) {
+            allPrimeNumbers.push(index);
+        }
     }
-    BiggestPrimeNumber(1,50);
+    console.log(allPrimeNumbers);
+    console.log(`O maior número primo do intervalo é ${allPrimeNumbers[0]}.`)
+    return allPrimeNumbers[0];
+}
+BiggestPrimeNumber(1, 50);
