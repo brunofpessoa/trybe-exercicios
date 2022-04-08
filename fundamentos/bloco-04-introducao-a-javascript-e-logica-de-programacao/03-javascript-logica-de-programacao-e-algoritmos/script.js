@@ -108,3 +108,22 @@ function PrintTriagule2(baseSize) {
     }
 }
 PrintTriagule2(5);
+
+// Requisito Bônus 4
+function PrintPyramid(baseSize) {
+    let aux = "";
+    let spaces = "";
+    let maxSpaces = Math.ceil(baseSize / 2);
+    for (let index = 0; index < maxSpaces; index += 1) {
+        spaces = "";
+        for (let secondIndex = index; secondIndex < maxSpaces - 1; secondIndex += 1) {
+            spaces += " ";
+        }
+        aux += "*";
+        if (index > 0) {
+            aux += "*";
+        }
+        console.log(spaces + aux);
+    }
+}
+PrintPyramid(9);
