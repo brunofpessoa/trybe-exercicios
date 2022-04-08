@@ -20,3 +20,28 @@ function InvertWords(word) {
     return reverse;
 }
 InvertWords("tryber");
+
+// Requisito 3
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+function GreaterWord() {
+    let top = array[0];
+    for (let index = 0; index < array.length; index += 1) {
+        if (array[index].length > top.length) {
+            top = array[index];
+        }
+    }
+    console.log(`${top} é a maior palavra.`);
+    return top;
+}
+function MinorWord() {
+    let bottom = array[0];
+    for (let index = 0; index < array.length; index += 1) {
+        if (array[index].length < bottom.length) {
+            bottom = array[index];
+        }
+    }
+    console.log(`${bottom} é a menor palavra.`);
+    return bottom;
+}
+GreaterWord();
+MinorWord();
