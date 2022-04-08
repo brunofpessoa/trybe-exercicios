@@ -173,6 +173,7 @@ function IsPrime(number) {
         return true;
     } else {
         console.log(`O número ${number} não é primo.`)
+        return false;
     }
 }
 IsPrime(31);
