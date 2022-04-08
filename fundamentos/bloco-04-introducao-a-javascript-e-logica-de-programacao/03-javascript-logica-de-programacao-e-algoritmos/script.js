@@ -127,3 +127,35 @@ function PrintPyramid(baseSize) {
     }
 }
 PrintPyramid(9);
+
+// Requisito Bônus 5
+function PrintHollowPyramid(baseSize) {
+    if (baseSize % 2 === 0) {
+        console.log("O número deve ser ímpar!")
+        return;
+    }
+    let spaces = " ";
+    let maxSpaces = Math.ceil(baseSize / 2);
+    let line = "";
+    let internalSpaces = "";
+    for (let index = 0; index < maxSpaces - 1; index += 1) {
+        for (let secondIndex = index; secondIndex < maxSpaces - 2; secondIndex += 1) {
+            spaces += " ";
+        }
+        if (index == 0) {
+            line = spaces + "*";
+        } else {
+            line = spaces + "*" + internalSpaces + "*";
+            internalSpaces += " ";
+        }
+        internalSpaces += " ";
+        spaces = " ";
+        console.log(line);
+    }
+    let finalLine = "";
+    for (let index = 0; index < baseSize; index += 1) {
+        finalLine += "*";
+    }
+    console.log(finalLine);
+}
+PrintHollowPyramid(11);
