@@ -85,12 +85,26 @@ function PrintSquare(n) {
 PrintSquare(2);
 
 // Requisito Bônus 2
-function PrintTriagule() {
-    let baseSize = 5;
+function PrintTriagule(baseSize) {
     let aux = "";
     for (let index = 0; index < baseSize; index += 1) {
         aux += "*";
         console.log(aux);
     }
 }
-PrintTriagule();
+PrintTriagule(5);
+
+// Requisito Bônus 3
+function PrintTriagule2(baseSize) {
+    let aux = "";
+    let spaces = "";
+    for (let index = 0; index < baseSize; index += 1) {
+        spaces = "";
+        for (let secondIndex = index; secondIndex < baseSize - 1; secondIndex += 1) {
+            spaces += " ";
+        }
+        aux += "*";
+        console.log(spaces + aux);
+    }
+}
+PrintTriagule2(5);
