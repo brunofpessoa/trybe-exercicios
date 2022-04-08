@@ -83,3 +83,14 @@ function PrintSquare(n) {
     }
 }
 PrintSquare(2);
+
+// Requisito Bônus 2
+function PrintTriagule() {
+    let baseSize = 5;
+    let aux = "";
+    for (let index = 0; index < baseSize; index += 1) {
+        aux += "*";
+        console.log(aux);
+    }
+}
+PrintTriagule();
