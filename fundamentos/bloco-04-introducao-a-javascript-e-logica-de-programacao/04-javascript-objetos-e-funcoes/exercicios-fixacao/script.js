@@ -7,7 +7,7 @@ let player = {
         golden: 2,
         silver: 3
     }
-}
+};
 
 // Requisito 2
 console.log(`A jogadora ${player.name + " " + player.lastName} tem ${player.age} anos de idade`);
@@ -22,3 +22,24 @@ console.log(`A jogadora ${fullName} foi eleita a melhor do mundo por ${manyTimes
 
 // Requisito 5
 console.log(`A jogadora possui ${player.medals.golden} medalhas de ouro e ${player.medals.silver} medalhas de prata`);
+
+// Requisito 1 - for/in
+let names = {
+    person1: 'João',
+    person2: 'Maria',
+    person3: 'Jorge',
+};
+
+for (let index in names) {
+    console.log(`Olá ${names[index]}`);
+}
+
+// Requisito 2 - for/in
+let car = {
+    model: 'A3 Sedan',
+    manufacturer: 'Audi',
+    year: 2020
+};
+for (let key in car) {
+    console.log(key + ": " + car[key]);
+}
