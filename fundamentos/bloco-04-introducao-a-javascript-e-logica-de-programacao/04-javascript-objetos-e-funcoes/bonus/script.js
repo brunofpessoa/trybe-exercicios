@@ -37,7 +37,6 @@ function romanNumberConverter(roman){
 romanNumberConverter('XVI');
 
 // Exercício 2
-let vector = [[1, 2], [3,4,5,6], [7,8,9,10]];
 function arrayOfNumbers(vector){
     let evenNumber = [];
     for (let index = 0; index < vector.length; index += 1) {
@@ -50,4 +49,5 @@ function arrayOfNumbers(vector){
     console.log(evenNumber);
     return evenNumber;
 }
+let vector = [[1, 2], [3,4,5,6], [7,8,9,10]];
 arrayOfNumbers(vector);
