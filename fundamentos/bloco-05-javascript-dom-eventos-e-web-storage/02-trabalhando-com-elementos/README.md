@@ -15,5 +15,5 @@
 11. Adicione a classe description nas 3 tags h3 criadas;
 12. Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild() ;
 13. Centralize a section criado no passo 6 (aquele que possui a classe right-content ). Dica: para 5. centralizar, basta configurar o margin-right: auto da section ;
-Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content ) para a cor verde;
-14. Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
+14. Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content ) para a cor verde;
+15. Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
