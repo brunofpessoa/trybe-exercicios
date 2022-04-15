@@ -75,7 +75,7 @@
         document.body.appendChild(sectionOne);
         // Requisito 4
         let newParagraph = createElement('p');
-        newParagraph.innerText = 'Este é um texto teste.';
+        newParagraph.innerText = 'Este é um texto qualquer.';
         document.getElementsByClassName('center-content')[0].appendChild(newParagraph);
         // Requisito 5
         let sectionTwo = createElement('section');
@@ -108,7 +108,10 @@
         // Requisito 10
         document.getElementsByTagName('h1')[0].className = 'title';
         // Requisito 11
-        document.getElementsByTagName('h3')[0].className = 'description';
+        elements = document.getElementsByTagName('h3');
+        for (let index in elements) {
+            elements[index].className = 'description';
+        }
         // Requisito 12
         let childToRemove = document.getElementsByClassName('left-content')[0];
         document.getElementsByClassName('main-content')[0].removeChild(childToRemove);
