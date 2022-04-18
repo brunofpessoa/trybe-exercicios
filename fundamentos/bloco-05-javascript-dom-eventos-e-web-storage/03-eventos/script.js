@@ -50,11 +50,11 @@ function onClickHolidays() {
 }
 
 // Exercício 4
-function uselessFuction(string) {
+function fridayButton(string) {
   let btn = document.createElement('button');
   btn.innerHTML = string;
   btn.id = 'btn-friday';
   document.getElementsByClassName('buttons-container')[0].appendChild(btn);
 }
 
-uselessFuction('Sexta-feira');
+fridayButton('Sexta-feira');
