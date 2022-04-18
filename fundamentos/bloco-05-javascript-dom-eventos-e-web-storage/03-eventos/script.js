@@ -128,8 +128,6 @@ selectTask();
 let day = document.getElementById('days');
 day.addEventListener('click', function (element) {
     let selectedTask = document.getElementsByClassName('task-selected')[0];
-    if (selectTask === null)
-        return;
     let elementColor = element.target.style.color;
     let referenceColor = selectedTask.style.backgroundColor;
     if(elementColor === referenceColor){
