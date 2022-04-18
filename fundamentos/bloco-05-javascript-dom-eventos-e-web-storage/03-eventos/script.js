@@ -129,6 +129,9 @@ let day = document.getElementById('days');
 day.addEventListener('click', function (element) {
     let selectedTask = document.getElementsByClassName('task-selected')[0];
     let elementColor = element.target.style.color;
+    if(selectedTask == null){
+        return;
+    }
     let referenceColor = selectedTask.style.backgroundColor;
     if (elementColor === referenceColor) {
         element.target.style.color = 'rgb(119,119,119)';
