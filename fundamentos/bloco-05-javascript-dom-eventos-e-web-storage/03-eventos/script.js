@@ -94,13 +94,18 @@ function zoomOut(element) {
 }
 
 // Exercício 7
-function addTask() {
-    let task = document.getElementById('task-input').value;
-    console.log((task));
+function addTask(task) {
     let element = document.createElement('span');
-    element.style.display = 'block';
     element.innerHTML = task;
     document.getElementsByClassName('my-tasks')[0].appendChild(element);
 }
+addTask('Projeto: ');
 
-document.getElementById('btn-add').addEventListener('click', addTask);
+// Exercício 8
+function label(color) {
+    let newLable = document.createElement('div');
+    newLable.className = 'task';
+    newLable.style.backgroundColor = color;
+    document.getElementsByClassName('my-tasks')[0].appendChild(newLable);
+}
+label('blue');
