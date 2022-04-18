@@ -130,9 +130,38 @@ day.addEventListener('click', function (element) {
     let selectedTask = document.getElementsByClassName('task-selected')[0];
     let elementColor = element.target.style.color;
     let referenceColor = selectedTask.style.backgroundColor;
-    if(elementColor === referenceColor){
+    if (elementColor === referenceColor) {
         element.target.style.color = 'rgb(119,119,119)';
-    }else{
+    } else {
         element.target.style.color = referenceColor;
     }
 })
+
+// Exercício Bônus
+function addNewTask() {
+    let inputField = document.getElementById('task-input');
+    let addBtn = document.getElementById('btn-add');
+    let taskList = document.getElementsByClassName('task-list')[0];
+
+    addBtn.addEventListener('click', function () {
+        if (inputField.value.length > 0) {
+            let newLi = document.createElement('li');
+            newLi.innerText = inputField.value;
+            taskList.appendChild(newLi);
+            inputField.value = '';
+        } else {
+            alert('Error: Digite ao menos 1 caractere.');
+        }
+    })
+
+    inputField.addEventListener('keyup', function (event) {
+        if (event.key === 'Enter' && inputField.value.length > 0) {
+            let newLi = document.createElement('li');
+            newLi.innerText = inputField.value;
+            taskList.appendChild(newLi);
+            inputField.value = '';
+        }
+    });
+};
+
+addNewTask();
