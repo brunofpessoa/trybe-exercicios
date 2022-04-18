@@ -92,3 +92,15 @@ function zoomIn(element) {
 function zoomOut(element) {
     element.target.style.fontSize = '20px';
 }
+
+// Exercício 7
+function addTask() {
+    let task = document.getElementById('task-input').value;
+    console.log((task));
+    let element = document.createElement('span');
+    element.style.display = 'block';
+    element.innerHTML = task;
+    document.getElementsByClassName('my-tasks')[0].appendChild(element);
+}
+
+document.getElementById('btn-add').addEventListener('click', addTask);
