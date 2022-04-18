@@ -48,3 +48,13 @@ function onClickHolidays() {
 }
   btnClicked = !btnClicked;
 }
+
+// Exercício 4
+function uselessFuction(string) {
+  let btn = document.createElement('button');
+  btn.innerHTML = string;
+  btn.id = 'btn-friday';
+  document.getElementsByClassName('buttons-container')[0].appendChild(btn);
+}
+
+uselessFuction('Sexta-feira');
