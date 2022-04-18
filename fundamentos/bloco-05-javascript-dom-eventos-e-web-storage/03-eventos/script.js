@@ -116,10 +116,25 @@ function selectTask() {
     let task = document.getElementsByClassName('task')[0];
     task.addEventListener('click', function (element) {
         if (selectedTask.length === 0) {
-            element.target.className = 'task selected';
+            element.target.className = 'task-selected';
         } else {
             element.target.className = 'task';
         }
     });
 }
 selectTask();
+
+// Exercício 10
+let day = document.getElementById('days');
+day.addEventListener('click', function (element) {
+    let selectedTask = document.getElementsByClassName('task-selected')[0];
+    if (selectTask === null)
+        return;
+    let elementColor = element.target.style.color;
+    let referenceColor = selectedTask.style.backgroundColor;
+    if(elementColor === referenceColor){
+        element.target.style.color = 'rgb(119,119,119)';
+    }else{
+        element.target.style.color = referenceColor;
+    }
+})
