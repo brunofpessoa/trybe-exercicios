@@ -61,7 +61,6 @@ function fridayButton(string) {
 fridayButton('Sexta-feira');
 
 // Exercício 5
-
 let fridays = ['4', '11', '18', '25'];
 let days = document.getElementsByTagName('li');
 for (let day of days) {
@@ -82,3 +81,14 @@ function modifyFriday() {
 }
 
 document.getElementById('btn-friday').addEventListener('click', modifyFriday);
+
+// Exercício 6
+let allDays = document.getElementById('days');
+allDays.addEventListener('mouseover', zoomIn);
+allDays.addEventListener('mouseout', zoomOut);
+function zoomIn(element) {
+    element.target.style.fontSize = '30px';
+}
+function zoomOut(element) {
+    element.target.style.fontSize = '20px';
+}
