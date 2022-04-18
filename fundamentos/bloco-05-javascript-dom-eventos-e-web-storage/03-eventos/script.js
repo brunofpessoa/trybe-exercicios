@@ -28,8 +28,23 @@ addDays();
 // Exercício 2
 function createButton(feriados) {
   let btn = document.createElement('button');
-  btn.id = 'htn-holiday';
+  btn.id = 'btn-holiday';
   btn.innerHTML = feriados;
   document.getElementsByClassName('buttons-container')[0].appendChild(btn);
 }
 createButton("Feriados");
+
+// Exercício 3
+let holidayBtn = document.getElementById('btn-holiday');
+holidayBtn.addEventListener('click', onClickHolidays);
+let btnClicked = false;
+function onClickHolidays() {
+  let holidays = document.getElementsByClassName('holiday');
+  for (let holiday of holidays) {
+    let newColor;
+    btnClicked ? newColor = 'green' : newColor = 'rgb(238,238,238)';
+    holiday.style.backgroundColor = newColor;
+    holiday.style.backgroundColor = newColor;
+}
+  btnClicked = !btnClicked;
+}
