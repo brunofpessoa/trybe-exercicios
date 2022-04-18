@@ -109,3 +109,17 @@ function label(color) {
     document.getElementsByClassName('my-tasks')[0].appendChild(newLable);
 }
 label('blue');
+
+// Exercício 9
+function selectTask() {
+    let selectedTask = document.getElementsByClassName('task selected');
+    let task = document.getElementsByClassName('task')[0];
+    task.addEventListener('click', function (element) {
+        if (selectedTask.length === 0) {
+            element.target.className = 'task selected';
+        } else {
+            element.target.className = 'task';
+        }
+    });
+}
+selectTask();
