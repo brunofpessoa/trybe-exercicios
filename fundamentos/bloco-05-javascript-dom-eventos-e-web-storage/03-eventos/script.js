@@ -8,8 +8,8 @@ function createDaysOfTheWeek() {
         dayListItem.innerHTML = days;
 
         weekDaysList.appendChild(dayListItem);
-    };
-};
+    }
+}
 
 createDaysOfTheWeek();
 
@@ -165,6 +165,6 @@ function addNewTask() {
             inputField.value = '';
         }
     });
-};
+}
 
 addNewTask();
