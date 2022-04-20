@@ -1,3 +1,10 @@
+body {
+    color: white;
+    background-color: rgb(48, 48, 48);
+}
+h3 {
+    text-align: center;
+}
 #preferences {
     max-width: 500px;
     margin: auto;
@@ -15,15 +22,11 @@ input, button{
     font-weight: 800;
 }
 article {
+    color: black;
+    background-color: white;
     margin-inline-start: 50px;
     margin-inline-end: 50px;
     padding: 20px;
     margin-top: 15px;
-}
-body {
-    color: white;
-    background-color: rgb(48, 48, 48);
-}
-h3 {
-    text-align: center;
+    border-radius: 5px;
 }
