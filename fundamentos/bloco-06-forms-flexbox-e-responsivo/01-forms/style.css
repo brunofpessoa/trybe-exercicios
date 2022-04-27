@@ -1,0 +1,45 @@
+ * {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.input-field {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  background-color: beige;
+  border-radius: 3px;
+}
+
+#user-email {
+  margin-top: 10px;
+}
+
+#answer {
+  resize: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#answer p {
+  padding-bottom: 10px;
+}
+
+#user-data p {
+  padding-top: 10px;
+}
+
+#user-data input {
+  margin-top: 10px;
+}
+
+input {
+  padding: 3px;
+  border-radius: 3px;
+}

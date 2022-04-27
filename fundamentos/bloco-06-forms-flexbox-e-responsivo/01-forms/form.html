@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 6.1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Trybe Trip</h1>
+  </header>
+  <main>
+    <form action="" method="get" id="trip-form">
+      <div class="input-field">
+        <div id="user-name">
+          <label for="input-name">Nome:</label>
+          <input type="text" minlength="10" maxlength="40" id="input-name">
+        </div>
+        <div id="user-email">
+          <label for="email">Email:</label>
+          <input type="email" minlength="10" maxlength="50" id="email">
+        </div>
+      </div>
+      <div class="input-field" id="destination">
+        <label for="destino">Destino preferido:</label>
+        <input type="radio" name="radio" id="cidade">
+        <label for="cidade">Cidade</label>
+        <input type="radio" name="radio" id="campo">
+        <label for="campo">Campo</label>
+        <input type="radio" name="radio" id="praia">
+        <label for="praia">Praia</label>
+        <input type="radio" name="radio" id="montanhas">
+        <label for="montanhas">montanhas</label>
+      </div>
+      <div class="input-field" id="answer">
+        <p>Por que você deve ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+        <textarea name="answer" id="answer" cols="50" rows="10" maxlength="500"
+          placeholder="Digite sua resposta"></textarea>
+      </div>
+      <div class="input-field" id="data">
+        <label for="data">Data:</label>
+        <input type="date" name="" id="">
+      </div>
+      <div class="input-field" id="user-data">
+        <p>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</p>
+        <label for="">Concordo</label>
+        <input type="checkbox" name="" id="">
+        <p>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
+        <label for="">Concordo</label>
+        <input type="checkbox" name="" id="">
+      </div>
+      <div class="input-field" id="submit-btn">
+        <input id="submit" type="submit" value="Enviar">
+      </div>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
