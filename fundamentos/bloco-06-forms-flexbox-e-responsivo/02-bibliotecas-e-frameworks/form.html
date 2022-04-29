@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 6.1</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+    <header class="form-control mb-3 text-center">
+      <h1 class="display-3">Trybe Trip</h1>
+    </header>
+
+    <form action="" method="get" id="trip-form">
+
+      <div class="row g-3">
+        <div class="col-md-6 form-floating mb-3">
+          <input class="form-control" type="text" minlength="10" maxlength="40" id="input-name" placeholder="Seu nome">
+          <label class="fw-bold" for="input-name">Nome completo</label>
+        </div>
+        <div class="col-md-6 form-floating mb-3">
+          <input class="form-control" type="email" minlength="10" maxlength="50" placeholder="name@exemplo.com">
+          <label class="fw-bold" for="email">Email</label>
+        </div>
+      </div>
+
+      <div class="form-control mb-3" id="destination">
+        <label class="form-label fw-bold" for="">Destino preferido:</label>
+        <input class="form-check-input" type="radio" name="radio" id="cidade">
+        <label class="form-label" for="cidade">Cidade</label>
+        <input class="form-check-input" type="radio" name="radio" id="campo">
+        <label class="form-label" for="campo">Campo</label>
+        <input class="form-check-input" type="radio" name="radio" id="praia">
+        <label class="form-label" for="praia">Praia</label>
+        <input class="form-check-input" type="radio" name="radio" id="montanhas">
+        <label class="form-label" for="montanhas">montanhas</label>
+      </div>
+
+      <div class="form-control mb-3" id="answer">
+        <p>Por que você deve ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+        <textarea class="form-control" name="answer" id="answer" cols="10" rows="4" maxlength="500"
+          placeholder="Digite sua resposta"></textarea>
+      </div>
+
+      <div class="form-control mb-3">
+        <label class="form-label fw-bold" for="date">Data:</label>
+        <input class="form-control" type="date" id="date">
+      </div>
+
+      <div class="form-control mb-3">
+        <p>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</p>
+        <label class="form-label fw-bold" for="check-input-1">Concordo</label>
+        <input class="form-check-input" type="checkbox" id="check-input-1">
+      </div>
+
+      <div class="form-control mb-3">
+        <p>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
+        <label class="form-label fw-bold" for="check-input-2">Concordo</label>
+        <input class="form-check-input" type="checkbox" id="check-input-2">
+      </div>
+
+      <div class="mb-3 text-center">
+        <input class="btn btn-success" id="submit" type="submit" value="Enviar">
+      </div>
+
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
