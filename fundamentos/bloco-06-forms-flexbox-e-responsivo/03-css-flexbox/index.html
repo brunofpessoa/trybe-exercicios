@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <title>Exercício 6.3</title>
+  <style>
+    body {
+      background-image: linear-gradient(to right, rgb(148, 24, 148), rgb(44, 11, 128));
+      height: 100vh;
+    }
+
+    .title {
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .button {
+      margin: 20px;
+      font-weight: 900;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Escolha a página</h1>
+  </header>
+  <section class="container">
+    <button class="button is-primary" id="before">Antes da estilização</button>
+    <button class="button is-primary" id="after">Depois da estilização</button>
+  </section>
+  <script>
+    document.getElementById('before').addEventListener('click', () => { location.href = "./tech-gallery.html" });
+    document.getElementById('after').addEventListener('click', () => { location.href = "./tech-gallery-after.html" });
+  </script>
+</body>
+
+</html>
