@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  
+}
+
+header p{
+  flex-basis: 20%;
+}
+
+nav ul{
+  flex-basis: 80%;
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 600px){
+  
+}
