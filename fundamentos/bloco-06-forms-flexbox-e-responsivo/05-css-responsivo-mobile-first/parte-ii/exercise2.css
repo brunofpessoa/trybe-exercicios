@@ -1,5 +1,13 @@
 html {
   box-sizing: border-box;
+  --brand: #8257E5;
+  --bg-dark: #09090A;
+  --stroke: #52525B;
+  --text-on-brand: #FFFFFF;
+  --text-primary: #F4F4F5;
+  --text-secondary: #A1A1AA;
+  --surface-primary: #18181B;
+  --surface-secondary: #27272A;
 }
 
 *, *:before, *:after {
@@ -8,24 +16,188 @@ html {
   margin: 0;
 }
 
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+}
+
+header , .main-content , .aside-one , .aside-two , footer {
+  border: 1px solid var(--brand);
+  border-radius: 5px;
+  background-color: var(--surface-primary);
+}
+
+.container {  
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  padding: 10px
+}
+
 header {
+  padding: 20px;
   display: flex;
-  
+  justify-content: space-between;
+  gap: 10px;
+  order: 0;
 }
 
-header p{
-  flex-basis: 20%;
+header p {
+  flex-basis: 50%;
+  align-self: center;
+  font-weight: 900;
 }
 
-nav ul{
-  flex-basis: 80%;
+header nav {
+  flex-basis: 50%;
+}
+
+header ul {
   display: flex;
+  gap: 10px;
+  justify-content: flex-end;
 }
 
-li {
+header ul li {
   list-style-type: none;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: var(--surface-secondary);
 }
 
-@media screen and (min-width: 600px){
-  
+.main-content {
+  padding: 20px;
+  order: 3;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.main-content h1 {
+  text-align: center;
+}
+
+.main-content p {
+  text-align: justify;
+}
+
+footer {
+  order: 4;
+  background-color: blueviolet;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+footer p {
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .aside-one {
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    order: 2;
+    gap: 10px;
+  }
+
+  .aside-one ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    gap: 10px;
+  }
+
+  .aside-one ul li {
+    list-style-type: none;
+    text-align: start;
+  }  
+
+  .aside-two {
+    padding: 20px;
+    order: 1;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 10px;
+  }
+
+  .aside-two ul li {
+    list-style-type: none;
+  }
+
+  .container div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .aside-one ul li {
+    flex-basis: 20%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  header p {
+    font-size: 20px;
+  }
+
+  .aside-one ul li {
+    flex-basis: 45%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  .aside-two {
+    order: -1;
+    min-width: fit-content;
+    align-self: stretch;
+  }
+
+  .aside-one ul li, .aside-two ul li{
+    list-style-type: none;
+  }
+
+  .aside-one , .aside-two {
+    padding: 20px;
+  }
+
+  .aside-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .aside-one ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+  }
+
+  .aside-one ul li {
+    text-align: center;
+    flex-basis: 15%;
+  }
+
+  .container , .main-content, footer {
+    padding: 50px;
+    font-size: larger;
+  }
+
+  header, header p {
+    font-size: larger;
+  }
 }
