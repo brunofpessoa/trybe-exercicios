@@ -68,16 +68,16 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [ ] 8.6 - Projeto - Zoo functions
 
-##### Bloco 9: [JavaScript Assíncrono e Promises]
+## Desenvolvimento Front-end :hourglass_flowing_sand:
+
+##### Bloco 9: [JavaScript e Testes Assíncronos]
+- [ ] 9.1 - Introdução - Front-end
 - [ ] 9.1 - JavaScript Assíncrono e Callbacks
 - [ ] 9.2 - JavaScript Assíncrono - Fetch API e async/await
 - [ ] 9.3 - Jest - Testes Assíncronos
 - [ ] 9.4 - Projeto - Carrinho de Compras
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
-
 ##### Bloco 10: [Introdução à React]
-- [ ] 10.1 - Introdução - Front-end
 - [ ] 10.1 - Introdução - React
 - [ ] 10.1 - 'Hello, world!' no React!
 - [ ] 10.2 - Componentes React
