@@ -1,5 +1,16 @@
-const expectedResult = "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
+const books = require("./data.js");
 
-function reduceNames() {
-  // escreva seu código aqui
+const expectedResult =
+  "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
+
+function reduceNames(data) {
+  return data.reduce(
+    (acc, curr, index, arr) =>
+      index === arr.length - 1
+        ? `${acc} ${curr.author.name}.`
+        : `${acc} ${curr.author.name},`,
+    ""
+  );
 }
+
+console.log(reduceNames(books));
