@@ -1,4 +1,4 @@
-# Exercícios 8.4 - higher Order Functions - reduce
+# Exercícios 8.4 - Higher Order Functions - reduce
 
 ## Requisitos:
 
