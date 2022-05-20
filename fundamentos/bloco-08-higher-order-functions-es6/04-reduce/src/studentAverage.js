@@ -1,8 +1,22 @@
 const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
 const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
 
-function studentAverage() {
-  // escreva seu código aqui
+/* Only using reduce method
+
+function studentAverage(students, grades) {
+  return students.reduce( (acc, curr, index) => {
+    const gradeAverage = grades[index].reduce( (acc, curr) => acc += curr) / grades[index].length;
+    acc.push({ name: students[index], average: gradeAverage });
+    return acc;
+  }, []);
+}*/
+
+// Using reduce and map methods
+function studentAverage(students, grades) {
+  return students.map( (student, index) => ({
+    name: student,
+    average: grades[index].reduce( (acc, curr) => acc += curr) / grades[index].length,
+  }));
 }
 
 const expected = [
@@ -10,3 +24,5 @@ const expected = [
   { name: 'Miguel', average: 9.2 },
   { name: 'Maria Clara', average: 8.8 },
 ];
+
+console.log(studentAverage(students, grades));
