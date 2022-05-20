@@ -4,7 +4,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 ##### Bloco 1: [Unix e Bash]
 - [x] 1.3 - Fundamentos do Desenvolvimento Web
@@ -64,9 +64,9 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 8.1 - JavaScript ES6 - Introdução a Higher Order Functions
 - [x] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [x] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
-- [ ] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
-- [ ] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [ ] 8.6 - Projeto - Zoo functions
+- [x] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
+- [x] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [x] 8.6 - Projeto - Zoo functions
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
