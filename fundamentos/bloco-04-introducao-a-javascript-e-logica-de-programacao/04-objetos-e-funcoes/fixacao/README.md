@@ -3,7 +3,7 @@
 ## Requisitos
 
 1. Crie um objeto player contendo as variáveis listadas abaixo.
-```
+```javascript
 let name = 'Marta';
 let lastName = 'Silva';
 let age = 34;
@@ -21,7 +21,7 @@ let medals = { golden: 2, silver: 3 };
 ___
 ## Fixação - for/in
 1. Usando o objeto abaixo, utilize for/in e imprima no console a mensagem 'Olá xxxxx' para cada nome, substituindo o xxxxx pelo nome em questão.
-```
+```javascript
 let names = {
   person1: 'João',
   person2: 'Maria',
@@ -29,7 +29,7 @@ let names = {
 };
 ```
 2. Usando o objeto abaixo, utilize for/in e imprima um console.log com as chaves e valores desse objeto.
-```
+```javascript
 let car = {
   model: 'A3 Sedan',
   manufacturer: 'Audi',

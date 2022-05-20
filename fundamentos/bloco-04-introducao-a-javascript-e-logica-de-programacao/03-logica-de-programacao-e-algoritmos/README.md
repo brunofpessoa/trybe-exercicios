@@ -4,7 +4,7 @@
 1. crie um algoritmo que retorne o fatorial de 10.
 2. Agora, desenvolva um algoritmo que é capaz de inverter uma palavra.
 3. Considere o array de strings abaixo:
-```
+```javascript
 let array = ['java', 'javascript', 'python', 'html', 'css'];
 ```
     - Escreva dois algoritmos: um que retorne a maior palavra deste array e outro que retorne a menor. Considere o número de caracteres de cada palavra.

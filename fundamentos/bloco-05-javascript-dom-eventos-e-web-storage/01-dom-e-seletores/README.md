@@ -2,7 +2,7 @@
 
 ## Requisitos do exercício
 Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
-```
+```javascript
 document.getElementById()
 document.getElementsByClassName()
 document.getElementsByTagName()

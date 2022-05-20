@@ -4,7 +4,7 @@
 
 1 - Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
 
-```
+```javascript
 const expectedResult = [
   'As Crônicas de Gelo e Fogo - Fantasia - George R. R. Martin',
   'O Senhor dos Anéis - Fantasia - J. R. R. Tolkien',
@@ -19,7 +19,7 @@ function formatedBookNames() {
 }
 ```
 2 - Construa um array de objetos a partir do array de livros. Cada objeto deve conter uma propriedade author, com o nome da pessoa autora do livro, e uma propriedade age com a idade dessa pessoa quando o livro foi lançado. O array deve ser ordenado por idade, ou seja, da pessoa mais jovem para a mais velha considerando suas idades quando o livro foi lançado.
-```
+```javascript
 const expectedResult = [
   {
     age: 31,
@@ -52,7 +52,7 @@ function nameAndAge() {
 }
 ```
 3 - Crie um array com todos os objetos que possuem gênero ficção científica ou fantasia.
-```
+```javascript
 const expectedResult = [
   {
     id: 1,
@@ -89,7 +89,7 @@ function fantasyOrScienceFiction() {
 }
 ```
 4 - Crie um array ordenado pelos livros com mais de 60 anos de publicação e ordene-o pelo livro mais velho.
-```
+```javascript
 const expectedResult = [
   {
     id: 6,
@@ -119,7 +119,7 @@ function oldBooksOrdered() {
 }
 ```
 5 - Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
-```
+```javascript
 const expectedResult = [
   'Frank Herbert',
   'George R. R. Martin',
@@ -132,7 +132,7 @@ function fantasyOrScienceFictionAuthors() {
 }
 ```
 6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
-```
+```javascript
 const expectedResult = [
   'O Senhor dos Anéis',
   'Fundação',
@@ -144,7 +144,7 @@ function oldBooks() {
 }
 ```
 7 - Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
-```
+```javascript
 const expectedResult = 'O Senhor dos Anéis';
 
 function authorWith3DotsOnName() {

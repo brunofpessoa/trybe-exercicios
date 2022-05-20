@@ -9,7 +9,7 @@ Atenção! Esse exercício já apareceu no processo seletivo de uma grande multi
         
     - O valor de cada numeral romano é:
 
-```
+```javascript
 | I   | 1    |
 | --- | ---- |
 | IV  | 4    |
@@ -26,12 +26,12 @@ Atenção! Esse exercício já apareceu no processo seletivo de uma grande multi
 | M   | 1000 |
 ```
 2 - Crie uma função chamada arrayOfNumbers que receberá a variável vector como parâmetro. Através de um loop for , percorra essa variável, busque os números pares e os adicione a um novo array que deverá ser retornado ao final pela pela função.
-```
+```javascript
 let vector = [[1, 2], [3,4,5,6], [7,8,9,10]];
 ```
 3 - A partir do array de frutas basket , retorne um objeto que contenha o nome da fruta como chave e a quantidade de vezes que ela aparece no array como valor. Por exemplo, o array ['Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva'], deverá retornar { Melancia: 3, Abacate: 1, Uva: 1 } quando passado como argumento para a função.
 Em seguida, imprima esse resultado na tela com uma mensagem no seguinte formato: Sua cesta possui: x Melancias, x Abacates...
-```
+```javascript
 const basket = [
   'Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva', 'Laranja',
   'Jaca', 'Pera', 'Melancia', 'Uva', 'Laranja', 'Melancia',
@@ -53,7 +53,7 @@ const basket = [
 ];
 ```
 Usando o objeto abaixo, faça os exercícios a seguir:
-```
+```javascript
 let moradores = {
   blocoUm: [
     {

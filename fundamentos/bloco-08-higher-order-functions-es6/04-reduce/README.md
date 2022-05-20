@@ -6,7 +6,7 @@ Todos os exercícios devem ser realizados utilizando reduce, e se necessário ou
 
 1 - Dada uma matriz, transforme em um array.
 
-```
+```javascript
     const arrays = [
       ['1', '2', '3'],
       [true],
@@ -20,7 +20,7 @@ Todos os exercícios devem ser realizados utilizando reduce, e se necessário ou
 
 Para os exercícios 2, 3 e 4 considere o seguinte array:
 
-```
+```javascript
     const books = [
       {
         id: 1,
@@ -89,7 +89,7 @@ Para os exercícios 2, 3 e 4 considere o seguinte array:
 
 2 - Crie uma string com os nomes de todas as pessoas autoras.
 
-```
+```javascript
     const expectedResult = "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
 
     function reduceNames() {
@@ -99,7 +99,7 @@ Para os exercícios 2, 3 e 4 considere o seguinte array:
 
 3- Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
 
-```
+```javascript
     const expectedResult = 43;
 
     function averageAge() {
@@ -109,7 +109,7 @@ Para os exercícios 2, 3 e 4 considere o seguinte array:
 
 4- Encontre o livro com o maior nome.
 
-```
+```javascript
     const expectedResult = {
       id: 1,
       name: 'As Crônicas de Gelo e Fogo',
@@ -128,7 +128,7 @@ Para os exercícios 2, 3 e 4 considere o seguinte array:
 
 5- Dada o array de nomes, retorne a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.
 
-```
+```javascript
     const names = [
       'Aanemarie', 'Adervandes', 'Akifusa',
       'Abegildo', 'Adicellia', 'Aladonata',
@@ -142,7 +142,7 @@ Para os exercícios 2, 3 e 4 considere o seguinte array:
 
 6.\*\*- Agora vamos criar um novo array de objetos a partir das informações abaixo, onde cada objeto terá o formato { name: nome do aluno, average: media das notas }. Para isso vamos assumir que a posição 0 de notas refere-se ao aluno na posição 0 de alunos, aqui além de reduce será necessário utilizar também a função map.
 
-```
+```javascript
     const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
     const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
 

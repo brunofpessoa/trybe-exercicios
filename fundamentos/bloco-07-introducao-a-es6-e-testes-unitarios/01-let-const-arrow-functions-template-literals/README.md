@@ -6,7 +6,7 @@
 	* Modifique as concatenações para template literals.
 	* Copie o código abaixo.
 
-```
+```javascript
       function testingScope(escopo) {
         if (escopo === true) {
           var ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
@@ -26,7 +26,7 @@
 	* Bônus (opcional): tente fazer o mesmo exercício utilizando o métodoarray.sort(). Spoiler: É possível realizar uma função que ordene qualquer array de números.
 	* Copie o código abaixo.
 
-```
+```javascript
       const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
       // Seu código aqui.
@@ -41,7 +41,7 @@
 2. Crie uma função que receba uma frase e retorne qual a maior palavra.
 	* Exemplo:
 
-```
+```javascript
       longestWord('Antônio foi no banheiro e não sabemos o que aconteceu') // retorna 'aconteceu'
 ```
 3. 🚀 Crie uma página que contenha:

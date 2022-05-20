@@ -2,7 +2,7 @@
 
 ## Requisitos:
 1 - Dado o código abaixo, complete-o de forma que seja impressa a área dos 3 retângulos. O código deve retornar em sequência 2, 15 e 54.
-```
+```javascript
 const rectangleArea = (width, height) => width * height;
 
 const rectangle1 = [1, 2];
@@ -17,7 +17,7 @@ rectangles.forEach((rectangle) => {
 ```
 2 - Crie uma função sum que dado um número variável de elementos retorna a soma desses elementos.
 3 - Escreva a função personLikes, que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa, conforme mostrado abaixo:
-```
+```javascript
 const alex = {
   name: 'Alex',
   age: 26,
@@ -39,7 +39,7 @@ console.log(personLikes(alex)); // 'Alex is 26 years old and likes fly fishing.'
 console.log(personLikes(gunnar)); // 'Gunnar is 30 years old and likes hiking, scuba diving, taking pictures.'
 ```
 4 - Escreva uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20:
-```
+```javascript
 const people = [
   {
     name: 'Nicole',
@@ -71,13 +71,13 @@ const people = [
 // escreva filterPeople abaixo
 ```
 5 - Escreva a função swap, que dado um array de 3 elementos, retorna um novo array com o primeiro e terceiro elementos trocados. Detalhe: você precisa fazer essa função gastando 1 linha só:
-```
+```javascript
 const myList = [1, 2, 3];
 
 // escreva swap abaixo
 ```
 6 - Suponha que você esteja lidando com carros e, da forma como o problema lhe foi entregue, cada carro é modelado como um array. Porém, essa modelagem está baixo nível. Cria uma função toObject que, dada uma lista, retorna um objeto representando o carro:
-```
+```javascript
 const palio = ['Palio', 'Fiat', 2019];
 const shelbyCobra = ['Shelby Cobra', 'Ford', 1963];
 const chiron = ['Chiron', 'Bugatti', 2016];
@@ -85,7 +85,7 @@ const chiron = ['Chiron', 'Bugatti', 2016];
 // escreva toObject abaixo
 ```
 7 - Escreva uma função shipLength que, dado um objeto representando um navio, retorna o comprimento dele, mostrando também a devida unidade de comprimento:
-```
+```javascript
 const ships = [
   {
     name: 'Titanic',
@@ -111,7 +111,7 @@ console.log(shipLength(ships[1])); // 'Queen Mary 2 is 1132 feet long'
 console.log(shipLength(ships[2])); // 'Yamato is 256 meters long'
 ```
 8 - Escreva uma função greet que, dado o nome de uma pessoa, retorna uma mensagem de cumprimento:
-```
+```javascript
 // escreva greet abaixo
 
 console.log(greet('John')) // 'Hi John'
@@ -119,8 +119,7 @@ console.log(greet('John', 'Good morning')) // 'Good morning John'
 console.log(greet('Isabela', 'Oi')) // 'Oi Isabela'
 ```
 9 - Existe um objeto yearSeasons que representam as estações do ano. Cada estação é uma chave deste objeto e o valor de cada chave é um array de strings, representando os meses daquela estação. A partir deste objeto, desestruture as estações do ano e espalhe-as em um array de meses do ano.
-```
-
+```javascript
 const yearSeasons = {
   spring: ['March', 'April', 'May'],
   summer: ['June', 'July', 'August'],

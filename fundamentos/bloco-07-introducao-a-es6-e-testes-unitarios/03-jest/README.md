@@ -31,7 +31,7 @@ Teste se encode e decode são funções;
 
 5. A função techList recebe como parâmetros um array contendo uma lista de tecnologias e uma string com um nome. Para cada tecnologia no array a função cria, em ordem alfabética, um objeto com a seguinte estrutura:
 
-  ```
+  ```javascript
   {
     tech: 'nomeTecnologia',
     name: name,
@@ -40,7 +40,7 @@ Teste se encode e decode são funções;
 
   Implemente a função techList a partir dos testes abaixo. Experimente refatorar a função que você criou para esse projeto! É importante nunca alterar os testes ou as variáveis já escritas no código.
 
-  ```
+  ```javascript
   const techList = require('./techList.js');
 
   describe('Testa a função techList', () => {
@@ -103,7 +103,7 @@ Teste se encode e decode são funções;
 
   Implemente a função hydrate a partir dos testes abaixo. Experimente refatorar a função que você criou para o projeto Playground Function! É importante nunca alterar os testes ou as variáveis já escritas no código.
 
-  ```
+  ```javascript
   const hydrate = require('./hydrate.js');
 
   describe('Testa a função hydrate', () => {
