@@ -71,9 +71,9 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 9: [JavaScript e Testes Assíncronos]
-- [ ] 9.1 - Introdução - Front-end
-- [ ] 9.1 - JavaScript Assíncrono e Callbacks
-- [ ] 9.2 - JavaScript Assíncrono - Fetch API e async/await
+- [x] 9.1 - Introdução - Front-end
+- [x] 9.1 - JavaScript Assíncrono e Callbacks
+- [x] 9.2 - JavaScript Assíncrono - Fetch API e async/await
 - [ ] 9.3 - Jest - Testes Assíncronos
 - [ ] 9.4 - Projeto - Carrinho de Compras
 
