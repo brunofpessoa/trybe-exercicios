@@ -74,22 +74,22 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 9.1 - Introdução - Front-end
 - [x] 9.1 - JavaScript Assíncrono e Callbacks
 - [x] 9.2 - JavaScript Assíncrono - Fetch API e async/await
-- [ ] 9.3 - Jest - Testes Assíncronos
-- [ ] 9.4 - Projeto - Carrinho de Compras
+- [x] 9.3 - Jest - Testes Assíncronos
+- [x] 9.4 - Projeto - Carrinho de Compras
 
 ##### Bloco 10: [Introdução à React]
-- [ ] 10.1 - Introdução - React
-- [ ] 10.1 - 'Hello, world!' no React!
-- [ ] 10.2 - Componentes React
-- [ ] 10.3 - Projeto - Sistema Solar
+- [x] 10.1 - Introdução - React
+- [x] 10.1 - 'Hello, world!' no React!
+- [x] 10.2 - Componentes React
+- [x] 10.3 - Projeto - Sistema Solar
 
 ##### Bloco 11: [Componentes com Estado, Eventos e Formulários com React]
-- [ ] 11.1 - Componentes com estado e eventos
-- [ ] 11.2 - Formulários no React
-- [ ] 11.3 - Projeto - Tryunfo
+- [x] 11.1 - Componentes com estado e eventos
+- [x] 11.2 - Formulários no React
+- [x] 11.3 - Projeto - Tryunfo
 
 ##### Bloco 12: [Ciclo de Vida de Componentes e React Router]
-- [ ] 12.1 - Ciclo de vida de componentes
+- [x] 12.1 - Ciclo de vida de componentes
 - [ ] 12.2 - React Router
 - [ ] 12.3 - Projeto - TrybeTunes
 
